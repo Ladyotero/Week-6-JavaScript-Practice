@@ -1,5 +1,5 @@
 
-### Pokemon Data Fetching
+# Pokemon Data Fetching
 
 ## fetchPokemonData(pokemon) Function
 
