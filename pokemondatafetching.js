@@ -1,4 +1,5 @@
 'use strict'
+
 const axios = require('axios');
 async function fetchPokemonData(pokemon) {
     const URL = `https://pokeapi.co/api/v2/pokemon`;
@@ -19,4 +20,5 @@ async function logPokemonData() {
         console.error('Error fetching Pokemon data', error);
     }
 }
+
 logPokemonData();
